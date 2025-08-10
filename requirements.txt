@@ -1,0 +1,12 @@
+This file lists the necessary Python packages for the project.
+
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.0
+joblib==1.4.2
+
+
+For notebooks and visualization
+
+matplotlib==3.9.0
+seaborn==0.13.2
