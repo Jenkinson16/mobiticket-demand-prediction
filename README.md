@@ -1,4 +1,3 @@
-This is the main documentation for your project, explaining what it is and how to use it.
 
 # Mobiticket Transport Demand Prediction
 
