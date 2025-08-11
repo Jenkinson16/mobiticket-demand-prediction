@@ -1,4 +1,5 @@
-Mobiticket Transport Demand Prediction
+**Mobiticket Transport Demand Prediction**
+
 This project aims to build a machine learning model to predict the number of seats that Mobiticket can expect to sell for each ride. The model uses historical ticket data to forecast demand based on factors like the route, time of day, and day of the week.
 
 📂 Project Structure
@@ -64,11 +65,20 @@ This script will load the saved model and the test set to evaluate its performan
 ```
 python src/model_evaluation.py
 ```
-📈 Results
-The project uses a Random Forest Regressor model. The evaluation on the unseen test set yielded the following results:
+**📈 Results**
 
-Mean Absolute Error (MAE): 4.54 (The model's predictions are, on average, off by about 4–5 seats).
+The model's performance was evaluated on the unseen test data with the following results:
 
-R-squared (R²): 0.32 (The model explains 32% of the variance in ticket sales).
+**R-squared (R²):** 0.61
 
-For a detailed walkthrough of the exploratory data analysis (EDA) and model building process, please see the Jupyter Notebook at notebooks/EDA_and_Model.ipynb.
+**Interpretation:** The model successfully explains 61% of the variability in the number of tickets sold, indicating a strong relationship between the features and the target variable.
+
+**Mean Absolute Error (MAE):** 3.22
+
+**Interpretation:** On average, the model's prediction for the number of seats sold is off by approximately 3 seats.
+
+**Mean Squared Error (MSE):** 20.57
+
+For a detailed walkthrough of the exploratory data analysis (EDA) and model building process, please refer to the Jupyter Notebook at notebooks/EDA_and_Model.ipynb.
+
+
