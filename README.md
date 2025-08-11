@@ -1,35 +1,40 @@
 
 # Mobiticket Transport Demand Prediction
 
-This project aims to build a machine learning model to predict the number of seats that Mobiticket can expect to sell for each ride. The model uses historical ticket data to forecast demand based on factors like the route, time of day, and day of the week.
+This project aims to build a machine learning model to predict the number of seats that Mobiticket can expect to sell for each ride.  
+The model uses historical ticket data to forecast demand based on factors like the route, time of day, and day of the week.
+
+---
 
 ## 📂 Project Structure
 
+```plaintext
 mobiticket-demand-prediction/
 │
 ├── data/
-│   ├── train_revised.csv       # Raw transactional data
-│   ├── processed_data.csv      # Processed data ready for modeling
-│   ├── X_test.csv              # Test features for evaluation
-│   └── y_test.csv              # Test target for evaluation
+│   ├── train_revised.csv                 # Raw transactional data
+│   ├── processed_data.csv                # Processed data ready for modeling
+│   ├── X_test.csv                        # Test features for evaluation
+│   └── y_test.csv                        # Test target for evaluation
 │
 ├── models/
-│   └── demand_predictor.pkl    # Saved (trained) model pipeline
+│   └── demand_predictor.pkl              # Saved (trained) model pipeline
 │
 ├── notebooks/
-│   └── EDA_and_Model.ipynb     # Jupyter Notebook for exploration and experimentation
+│   └── EDA_and_Model.ipynb               # Jupyter Notebook for exploration and experimentation
 │
 ├── src/
-│   ├── data_preprocessing.py   # Script to process raw data
-│   ├── model_training.py       # Script to train and save the model
-│   └── model_evaluation.py     # Script to evaluate the trained model
+│   ├── data_preprocessing.py             # Script to process raw data
+│   ├── model_training.py                 # Script to train and save the model
+│   └── model_evaluation.py               # Script to evaluate the trained model
 │
 ├── report/
 │   └── Data_Science_Capstone_Project.pdf # Original project description
 │
-├── requirements.txt            # List of Python libraries
-├── README.md                   # This file
-└── .gitignore                  # Specifies files to be ignored by Git
+├── requirements.txt                      # List of Python libraries
+├── README.md                             # This file
+└── .gitignore                            # Specifies files to be ignored by Git
+
 
 
 ## ⚙️ Setup and Installation
